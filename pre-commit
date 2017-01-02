@@ -1,0 +1,11 @@
+#!/bin/bash
+
+python3 test.py
+
+if [ $(echo $?) = 0]
+then 
+    echo "Test passed"
+else
+    exit 1
+fi
+exit 0
